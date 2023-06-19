@@ -1,0 +1,22 @@
+[ req ]
+default_bits        = 521
+distinguished_name  = req_distinguished_name
+req_extensions      = req_ext
+prompt              = no
+
+[ req_distinguished_name ]
+C  = FR
+ST = Var
+L  = Toulon
+O  = ISEN
+OU = ISEN
+CN = project.mickey@outlook.com
+
+[ req_ext ]
+subjectAltName = @alt_names
+
+[ alt_names ]
+email.1 = project.mickey@outlook.com
+
+[ usr_cert ]
+basicConstraints=CA:FALSE
