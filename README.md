@@ -6,7 +6,7 @@ Create a certification authority an a registration authority to sign emails.
 
 ## How to sign ?
 
-1. Create locally your unsinged certificate by running `~/code/generate_cert.sh`.
+1. Create locally your unsigned certificate by running `~/code/generate_cert.sh`.
 2. Run the script `~/code/webapp/submit_csr.py`.
 3. Go on `http://127.0.0.1:5000`
 4. Fill the first form on the web app created by submit_csr.py. You will receive an 8-char OTP on the the provided email address.
